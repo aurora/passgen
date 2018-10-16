@@ -24,8 +24,6 @@ if [ "$2" = "" ]; then
     exit 1
 fi
 
-line=$(($(grep -n "#""MARKER:WRAPPER" "$0" | head -n 1 | cut -d ":" -f 1) + 1))
-
 echo "cat << EOF |" > "$2"
 openssl enc -e -aes-256-cbc -a -in "$1" >> "$2"
 echo "EOF
