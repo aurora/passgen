@@ -2,8 +2,8 @@
 
 Repository of simple tools developed a shell scripts.
 
-* [passgen.sh](#passgen.sh) -- Create "pronounceable" passwords.
-* [shcrypt.sh](#shcrypt.sh) -- Creating encrypted shell-scripts.
+* [passgen.sh](#passgensh) -- Create "pronounceable" passwords.
+* [shcrypt.sh](#shcryptsh) -- Creating encrypted shell-scripts.
 
 ## passgen.sh
 
